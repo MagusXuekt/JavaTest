@@ -1,4 +1,4 @@
-package controlBlockTest;
+package basicTest.controlBlockTest;
 
 public class ControlBlockTest {
 	public static void forTest() {
