@@ -5,8 +5,5 @@ public class TestClass {
 		System.out.println("Start Test Now!");
 		new InitializeOrderTest();
 		new InitializeOrderTest();
-		int a[] = new int[] {
-			1, 2, 3
-		};
 	}
 }

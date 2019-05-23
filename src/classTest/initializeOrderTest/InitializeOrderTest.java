@@ -12,7 +12,21 @@ class C {
 	}
 }
 
-public class InitializeOrderTest {
+class Super {
+	static {
+		System.out.println("super static zone");
+	}
+	
+	{
+		System.out.println("super normal zone");
+	}
+	
+	Super() {
+		System.out.println("Super blablabla");
+	}
+}
+
+public class InitializeOrderTest extends Super {
 	int test1 = 1;
 	int test2;
 	A a1 = new A(1);

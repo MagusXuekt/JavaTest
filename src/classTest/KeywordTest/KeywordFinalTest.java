@@ -1,4 +1,4 @@
-package classTest.KeywordFinalTest;
+package classTest.KeywordTest;
 
 final class Base {
 	private static final int A = 0;
